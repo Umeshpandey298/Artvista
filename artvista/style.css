@@ -1,0 +1,108 @@
+  
+    body, h1, h2, p, ul {
+        margin: 0;
+        padding: 0;
+        
+      }
+  
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.5;
+        background-color: #8399a2;
+        background-image: url('images (18).jpeg');
+
+      }
+      
+      /* Navigation */
+      nav {
+        background: #333;
+        color: #fff;
+        padding: 10px;
+        background-color: rgb(117, 107, 116);
+      }
+      
+      nav ul {
+        list-style: none;
+        display: flex;
+        justify-content: center;
+      }
+      
+      nav ul li {
+        margin: 0 10px;
+      }
+      
+      nav ul li a {
+        color: #fff;
+        text-decoration: none;
+      }
+      
+      /* Header */
+      header {
+        background: #959095;
+        text-align: center;
+        padding: 50px 0;
+      }
+      
+      h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+      }
+      
+      /* Gallery Section */
+      section {
+        padding: 50px 0;
+        text-align: center;
+      }
+      
+      .gallery-item {
+        display: inline-block;
+        margin: 20px;
+        text-align: center;
+        
+      }
+      
+      .gallery-item img {
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+        height: 250px;
+        width: auto;
+      }
+      /*login */
+      .login-form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+  
+      .form-group {
+        margin-bottom: 20px;
+      }
+  
+      .form-group label {
+        display: block;
+        margin-bottom: 5px;
+      }
+  
+      .form-group input[type="text"],
+      .form-group input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        font-size: 16px;
+      }
+  
+      .form-group input[type="submit"] {
+        background-color: #4CAF50;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        cursor: pointer;
+        font-size: 16px;
+      }
+      
+      /* Footer */
+      footer {
+        background: #bb7474;
+        color: #fff;
+        text-align: center;
+        padding: 20px 0;
+      }
